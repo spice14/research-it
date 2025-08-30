@@ -1,0 +1,15 @@
+[project]
+name = "leann-rag"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+  "leann",                    # LEANN core
+  "python-dotenv",
+  "typer>=0.12",              # simple CLI
+  "rich",                     # pretty console
+  "transformers>=4.40",       # (only if you switch to HF embedding mode)
+  "sentence-transformers>=2.7.0",  # (for MiniLM etc., optional)
+]
+
+[tool.typer]
+pretty_exceptions_show_locals = false
