@@ -9,6 +9,9 @@ dependencies = [
   "rich",                     # pretty console
   "transformers>=4.40",       # (only if you switch to HF embedding mode)
   "sentence-transformers>=2.7.0",  # (for MiniLM etc., optional)
+  "requests",
+  "readability-lxml",   # robust main-content extraction
+  "beautifulsoup4",
 ]
 
 [tool.typer]
