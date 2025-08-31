@@ -87,6 +87,7 @@ streamlit run app_streamlit.py
 
 ---
 
+```
 ## 📚 Usage
 
 ### 1. Build an Index (CLI)
