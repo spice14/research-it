@@ -142,7 +142,7 @@ Features in the sidebar:
 * Select Ollama model (`llama3.2:1b` recommended for small GPUs)
 * Adjust retrieval params (chunk size, overlap, Top-K, num\_ctx)
 
-Ask questions in the chat box — you’ll get an answer with **retrieved sources** shown below.
+Ask questions in the chat box — you’ll get an answer with **retrieved sources**.
 
 ---
 
