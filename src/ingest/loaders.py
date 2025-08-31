@@ -2,7 +2,6 @@ from pathlib import Path
 from typing import Iterable, Iterator, Dict
 
 # Super-simple text loader + chunker for .txt / .md to keep things minimal.
-# (You can add PDF/docx loaders later.)
 def iter_text_files(root: Path, exts={".txt", ".md"}) -> Iterable[Path]:
     for p in root.rglob("*"):
         if p.suffix.lower() in exts and p.is_file():
