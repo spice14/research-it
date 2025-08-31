@@ -14,9 +14,9 @@ from leann import LeannChat, LeannBuilder
 # ---------------- Defaults ----------------
 APP_ROOT = Path(__file__).resolve().parent
 DEFAULT_INDEX = str(APP_ROOT / "indexes" / "arxiv-2307-09218.index")
-DEFAULT_MODEL = "llama3.2:3b"
-DEFAULT_TOP_K = 6
-DEFAULT_NUM_CTX = 2048
+DEFAULT_MODEL = "llama3.2:1b"
+DEFAULT_TOP_K = 4
+DEFAULT_NUM_CTX = 1024
 SYSTEM = (
     "You are a helpful assistant. Use the retrieved CONTEXT faithfully. "
     "If the answer is not in the context, say you don't know."
