@@ -90,7 +90,7 @@ streamlit run app_streamlit.py
 ```
 ## 📚 Usage
 
-### 1. Build an Index (CLI)
+### 1. Build an Index (CLI) [Don't!!! it's boring]
 
 * From a PDF:
 
@@ -127,7 +127,7 @@ This generates:
 
 ---
 
-### 2. Chat via Streamlit UI
+### 2. Chat via Streamlit UI [yayy!! I have colors and a webapp]
 
 Launch the app:
 
